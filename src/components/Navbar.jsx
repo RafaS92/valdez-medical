@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import translate from "../i18n/translate";
 import "./Navbar.css";
 
 function Navbar() {
@@ -27,8 +28,12 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <a href="#home" className="navbar-logo" onClick={closeMobileMenue}>
-            <img src="/images/logo.png" alt="" className="logo" />
-            <p>Becoming You</p>
+            <img
+              src="https://i.pinimg.com/originals/68/66/95/68669512018f0863f9674db42c64630c.jpg"
+              alt=""
+              className="logo"
+            />
+            <p>Valdez Medical</p>
           </a>
           <div className="menu-icon" onClick={handleClick}>
             <i className="fas fa-bars" />
@@ -41,7 +46,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenue}
               >
-                PASSION
+                {translate("home")}
               </a>
             </li>
             <li className="nav-item">
@@ -50,21 +55,17 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenue}
               >
-                SERVICES
+                {translate("services")}
               </a>
             </li>
-            <li className="nav-item">
-              <a href="#team" className="nav-links" onClick={closeMobileMenue}>
-                TEAM
-              </a>
-            </li>
+
             <li className="nav-item">
               <a
                 href="#subscribe"
                 className="nav-links"
                 onClick={closeMobileMenue}
               >
-                SUBSCRIBE
+                {translate("subscribe")}
               </a>
             </li>
 
@@ -75,7 +76,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenue}
                 >
-                  ABOUT
+                  {translate("about")}
                 </a>
               </li>
 
@@ -85,7 +86,7 @@ function Navbar() {
                   className="nav-links"
                   onClick={closeMobileMenue}
                 >
-                  ACCOUNT
+                  {translate("contact")}
                 </a>
               </li>
             </div>
