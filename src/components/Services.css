@@ -1,11 +1,14 @@
 .top-lay {
-  background-color: #00565cc7;
+  background-color: #0b50b969;
   z-index: 5;
 }
 
 .top-img {
   width: 100%;
-  object-fit: contain;
+  height: 550px;
+  background-image: url("https://www.recoveryunplugged.com/wp-content/uploads/2020/05/nurses-week.jpg");
+  background-position: 0px -60px;
+  object-fit: cover;
   position: relative;
   z-index: -2;
   background-attachment: fixed;
