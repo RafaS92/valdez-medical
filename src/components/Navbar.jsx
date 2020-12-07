@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import translate from "../i18n/translate";
 import "./Navbar.css";
 
 function Navbar() {
@@ -28,7 +29,7 @@ function Navbar() {
         <div className="navbar-container">
           <a href="#home" className="navbar-logo" onClick={closeMobileMenue}>
             <img src="/images/logo.png" alt="" className="logo" />
-            <p>Becoming You</p>
+            <p>Valdez Medical</p>
           </a>
           <div className="menu-icon" onClick={handleClick}>
             <i className="fas fa-bars" />
@@ -41,7 +42,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenue}
               >
-                PASSION
+                {translate("hi")}
               </a>
             </li>
             <li className="nav-item">
