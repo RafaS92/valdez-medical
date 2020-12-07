@@ -1,14 +1,18 @@
 import "./App.css";
-import { I18nProvider, LOCALES } from "./i18n";
-import translate from "./i18n/traslate";
+import Home from "./components/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <I18nProvider locale={LOCALES.ENGLISH}>
-      <div className="App">
-        <h1>{translate("hi")}</h1>
-      </div>
-    </I18nProvider>
+    <>
+      <Router>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </Router>
+    </>
   );
 }
 
