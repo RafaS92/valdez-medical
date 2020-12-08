@@ -1,0 +1,68 @@
+{
+  "features": [
+    {
+      "image": "https://img.freepik.com/free-vector/mental-health-women-vector_53876-61377.jpg?size=338&ext=jpg&ga=GA1.2.1101768578.1606848787",
+      "title": "Mental Health",
+      "description": "Chillflix is a website where users can find the trailers of trending movies in the Us. Chillflix is also mobile-friendly, so users can enjoy it from any device.",
+      "stats": "card-stats6",
+      "youtube": "https://www.youtube.com/watch?v=ursHDZf75fI",
+      "github": "https://github.com/RafaS92/chillflix",
+      "website": "https://chillflix-f03ad.web.app/",
+      "key":1
+    },
+    {
+      "image": "https://hutchhealth.com/wp-content/uploads/2019/04/OccMed-01.jpg",
+      "title": "Occupational Medicine",
+      "description": "Is a web application where users can text in real-time to other users, it is the perfect app for teams or groups of friends.",
+      "stats": "card-stats7",
+      "youtube": "https://youtu.be/ZUAOxt1CLOs",
+      "github": "https://github.com/RafaS92/hermes",
+      "website": "https://hermes-65215.web.app/login",
+      "key":2
+    },
+     {
+       "image": "https://cdn.shopify.com/s/files/1/2513/1396/files/face-place-medical-aesthetics-banner_grande.jpg?v=1525792385",
+       "title": "Medical Aesthetics",
+       "description": "Here users can sell and buy products from different users. Sell it works on android and iOS.",
+       "stats": "card-stats4",
+       "youtube": "https://youtu.be/woSPA0eyUEo",
+       "github": "https://github.com/RafaS92/sellIt",
+       "website": "https://expo.io/@rafas92/projects/sellIt?release-channel=prod",
+       "key":3
+          
+      },
+    {
+      "image": "https://www.med.unc.edu/pediatrics/files/2018/05/Peds_EM_Banner1-800x420.jpg",
+      "title": "Pediatric Care",
+      "description": "A website where users can register and buy tech products online. Everything that a customer needs, can be found online in shopper. ",
+      "stats": "card-stats5",
+      "youtube": "https://www.youtube.com/watch?v=HW-9AHDq5iA",
+      "github": "https://github.com/RafaS92/chillflix",
+      "website": "https://shopzon-9dc37.web.app/",
+      "key":4
+    },
+    {
+      "image": "https://www.marketplace.org/wp-content/uploads/2018/06/GettyImages-71265251.jpg?fit=1800%2C1000",
+      "title": "Adult Care",
+      "description": "Picpock is a social media app, where users can share pictures, post comments, and give likes, all in real-time. Picpock is a mobile-friendly app.",
+      "stats": "card-stats4",
+      "youtube": "https://www.youtube.com/watch?v=omKKuvrps7w",
+      "github": "https://github.com/RafaS92/picpock",
+      "website": "https://picpock-e2966.web.app/",
+      "key":5
+    },
+
+    {
+      "image": "https://d2ngl0nkh8z0ib.cloudfront.net/dragonfly-uploads/2018/12/20/17/17/51/b0a6c2a7-23e5-4685-b7f3-bb07e1b2273c/Elderly_20woman_20laughing_20with_20her_20nurse-_20640_20x_20460.jpg",
+      "title": "Senior Care",
+      "description": "  Master query is an app where users can search for terms, this is possible using the google search engine, and also it is a mobile-friendly app.",
+      "stats": "card-stats8",
+      "youtube": "https://youtu.be/TDWudt-wFSk",
+      "github": "https://github.com/RafaS92/Master-Querry",
+      "website": "https://master-query-87c64.web.app/",
+      "key":6
+    }
+
+   
+  ]
+}
