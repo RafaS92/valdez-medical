@@ -11,7 +11,7 @@ function LateralSections() {
           alt=""
         />
         <div className="first-text">
-          <h1>Our History</h1>
+          <h1>About Us</h1>
           <p>
             We believe healthcare should be personal, accessible and
             coordinated. At Village Medical, your relationship with your primary
@@ -40,11 +40,11 @@ function LateralSections() {
           <div className="list-section">
             <p>We're here for various health needs, including:</p>
             <ul>
-              <li>Wellness</li>
-              <li>Adult care</li>
-              <li>Drugs</li>
-              <li>Blood test</li>
-              <li>Vaccines</li>
+              <li>- Wellness</li>
+              <li>- Adult care</li>
+              <li>- Drugs</li>
+              <li>- Blood test</li>
+              <li>- Vaccines</li>
             </ul>
             <Button className="button2" buttonStyle="btn--outline">
               Explore Services

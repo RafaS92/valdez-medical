@@ -6,9 +6,6 @@ import * as servicesData from "../data/servicesData.json";
 function Services() {
   return (
     <>
-      <div className="top-lay">
-        <img className="top-img" />
-      </div>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">

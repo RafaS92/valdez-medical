@@ -1,5 +1,5 @@
 .footer-container {
-  background-color: #ebebeb;
+  background-color: #13345c;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -15,7 +15,7 @@
   text-align: center;
   margin-bottom: 24px;
   padding: 24px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .footer-subscription > p {
@@ -24,25 +24,15 @@
 }
 
 .footer-subscription-heading {
-  margin-bottom: 24px;
-  font-size: 24px;
+  font-family: "Gotham SSm A", "Gotham SSm B", arial, sans-serif !important;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
 }
 
 .footer-subscription-text {
   margin-bottom: 24px;
   font-size: 20px;
-}
-
-.footer-input {
-  padding: 8px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border: 1px solid rgb(0, 0, 0);
-  width: 200px;
 }
 
 .footer-links {
@@ -51,6 +41,12 @@
   display: flex;
   justify-content: center;
   border-radius: 25px;
+}
+
+.input-areas {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
 }
 
 .footer-link-wrapper {
@@ -71,7 +67,7 @@
 }
 .footer-link-items2 {
   display: flex;
-  color: #000000;
+  color: #ffffff;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
@@ -85,17 +81,17 @@
 }
 
 .footer-link-items > h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .footer-link-items a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
 
 .footer-link-items a:hover {
-  color: #ff3c00;
+  color: #ffffff;
   transition: 0.3s ease-out;
 }
 .footer-link-items2 h2 {
@@ -103,17 +99,17 @@
 }
 
 .footer-link-items2 > h2 {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 .footer-link-items2 a {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
 
 .footer-link-items2 a:hover {
-  color: #ff462e;
+  color: #ff0000;
   transition: 0.3s ease-out;
 }
 
@@ -141,7 +137,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 24px;
 }
 .social-icon-link:hover {
@@ -174,7 +170,7 @@
 }
 
 .social-logo {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -188,10 +184,11 @@
 .logoB {
   width: 60px;
   height: 60px;
+  border-radius: 35px;
 }
 
 .website-rights {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin-bottom: 16px;
 }
 
