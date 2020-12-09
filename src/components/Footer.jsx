@@ -8,21 +8,15 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Join the Becoming you newsletter to receive our best deals
+          Get started with Valdez Medical
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
         </p>
         <div className="input-areas">
           <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            <Button buttonStyle="btn--outline">Make an appoitment</Button>
+            <Button buttonStyle="btn--outline">Services</Button>
           </form>
         </div>
       </section>
@@ -62,12 +56,16 @@ function Footer() {
       <section class="social-media">
         <div class="social-media-wrap">
           <div className="footer-logo">
-            <img src="/images/logo.png" alt="" className="logoB" />
+            <img
+              src="https://i.pinimg.com/originals/68/66/95/68669512018f0863f9674db42c64630c.jpg"
+              alt=""
+              className="logoB"
+            />
             <a href="/" className="social-logo">
-              Becoming you
+              Valdez Medical
             </a>
           </div>
-          <small class="website-rights">Becoming you © 2020</small>
+          <small class="website-rights">Valdez Medical © 2020</small>
           <div class="social-icons">
             <a
               class="social-icon-link facebook"

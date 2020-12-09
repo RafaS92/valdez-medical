@@ -40,11 +40,11 @@ function LateralSections() {
           <div className="list-section">
             <p>We're here for various health needs, including:</p>
             <ul>
-              <li>Wellness</li>
-              <li>Adult care</li>
-              <li>Drugs</li>
-              <li>Blood test</li>
-              <li>Vaccines</li>
+              <li>- Wellness</li>
+              <li>- Adult care</li>
+              <li>- Drugs</li>
+              <li>- Blood test</li>
+              <li>- Vaccines</li>
             </ul>
             <Button className="button2" buttonStyle="btn--outline">
               Explore Services

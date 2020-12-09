@@ -11,7 +11,6 @@ function Home() {
     <div className="App">
       <Carousel />
       <LateralSections />
-      <Footer />
     </div>
   );
 }
