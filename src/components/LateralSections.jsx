@@ -11,7 +11,7 @@ function LateralSections() {
           alt=""
         />
         <div className="first-text">
-          <h1>Our History</h1>
+          <h1>About Us</h1>
           <p>
             We believe healthcare should be personal, accessible and
             coordinated. At Village Medical, your relationship with your primary

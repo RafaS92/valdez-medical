@@ -69,7 +69,7 @@ function Navbar() {
             <div className="last-section-navbar">
               <li className="nav-item">
                 <Link
-                  to="#passion"
+                  to="/about"
                   className="nav-links"
                   onClick={closeMobileMenue}
                 >
