@@ -35,24 +35,18 @@
   font-size: 20px;
 }
 
-.footer-input {
-  padding: 8px 20px;
-  border-radius: 2px;
-  margin-right: 10px;
-  outline: none;
-  border: none;
-  font-size: 18px;
-  margin-bottom: 16px;
-  border: 1px solid rgb(255, 255, 255);
-  width: 200px;
-}
-
 .footer-links {
   width: 100%;
   max-width: 1000px;
   display: flex;
   justify-content: center;
   border-radius: 25px;
+}
+
+.input-areas {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
 }
 
 .footer-link-wrapper {

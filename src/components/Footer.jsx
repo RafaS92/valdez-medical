@@ -14,10 +14,8 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className="input-areas">
-          <form>
-            <Button buttonStyle="btn--outline">Make an appoitment</Button>
-            <Button buttonStyle="btn--outline">Services</Button>
-          </form>
+          <Button buttonStyle="btn--outline">Make an appoitment</Button>
+          <Button buttonStyle="btn--outline">Services</Button>
         </div>
       </section>
       <div class="footer-links">

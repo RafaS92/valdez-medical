@@ -1,10 +1,10 @@
 import "./App.css";
-import Home from "./components/Home";
 import { I18nProvider, LOCALES } from "./i18n";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Footer from "./components/Footer";
+import Home from "./components/Home";
 
 function App() {
   return (

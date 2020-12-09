@@ -1,10 +1,10 @@
 import React from "react";
 import { I18nProvider, LOCALES } from "../i18n";
 import translate from "../i18n/translate";
-import Carousel from "./Carousel";
-import Footer from "./Footer";
+import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
 import "./Home.css";
-import LateralSections from "./LateralSections";
+import LateralSections from "../components/LateralSections";
 
 function Home() {
   return (
