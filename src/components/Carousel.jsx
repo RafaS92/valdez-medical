@@ -4,10 +4,12 @@ import "./Carousel.css";
 class DemoCarousel extends Component {
   render() {
     return (
-      <img
-        src="https://mountainparkhealth.org/wp-content/uploads/2018/09/Christown-Web-Exterior.jpg"
-        className="first"
-      />
+      <>
+        <div className="image-doc">
+          <h1 className="image-title">This Doctor is the shit</h1>
+          <h2 className="image-subtitle">Exceptional care you can trust.</h2>
+        </div>
+      </>
     );
   }
 }
