@@ -24,13 +24,12 @@
 .navbar-logo {
   color: rgb(255, 255, 255);
   position: relative;
-  right: 200px;
   cursor: pointer;
   text-decoration: none;
   font-size: 1.85rem;
   display: flex;
   align-items: center;
-  min-width: 200px;
+  width: 900px;
 }
 .navbar-logo:hover {
   text-decoration: none;
@@ -49,7 +48,6 @@
   text-align: center;
   width: auto;
   justify-content: flex-end;
-  margin-right: -1rem;
 }
 
 .nav-item {
