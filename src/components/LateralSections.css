@@ -1,0 +1,74 @@
+.sections-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  display: flex;
+  padding: 5rem 1.5rem;
+}
+
+.first > img {
+  height: 400px;
+  width: 400px;
+  flex: 0.5;
+  box-shadow: 0 19px 20px rgba(0, 0, 0, 0.404);
+}
+
+.first-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 4rem 4rem;
+}
+.first-text h1 {
+  color: #0a366b;
+  font-size: 3rem;
+}
+.first-text p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  margin-bottom: 50px;
+}
+.second {
+  display: flex;
+  padding: 5rem 1.5rem;
+  background-color: #e4f0f3;
+}
+
+.second > img {
+  height: 400px;
+  width: 400px;
+  flex: 0.5;
+  box-shadow: 0 19px 20px rgba(0, 0, 0, 0.404);
+}
+
+.second-text {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 4rem 4rem;
+}
+.second-text h1 {
+  color: #0a366b;
+  font-size: 3rem;
+}
+.second-text p {
+  font-size: 1.25rem;
+  line-height: 2rem;
+}
+
+.list-section {
+  margin-top: 100px;
+  list-style-type: initial !important;
+}
+
+.list-section li {
+  list-style-type: circle;
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #4a4a4a;
+  margin: 0 0 0.5rem 1.25rem;
+  padding: 0;
+}
