@@ -4,7 +4,7 @@ import "./About.css";
 function About() {
   return (
     <div>
-      <div className="first">
+      <div className="first-section">
         <div className="top-lay">
           <img className="top-img" />
         </div>
